@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import type { PindouColor } from './types';
-import mardPaletteData from '../data/mard-palete.json';
+import mardPaletteData from '../images/mard-palete.json';
 
 // @ts-ignore
-import logoPath from '../data/logo.png';
+import logoPath from '../images/logo.png';
 
 const mardPalette = mardPaletteData as PindouColor[];
 
